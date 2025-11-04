@@ -13,6 +13,7 @@
 
 
 **.env:**
+
     # Telegram settings
     BOT_TOKEN=
     ADMINS_IDS= <moderators_ids>
