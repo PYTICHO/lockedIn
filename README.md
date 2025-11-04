@@ -10,3 +10,17 @@
 ## ⚡ Функционал
 - 📸 Отправка **фото + текста одним сообщением**.  
 - 🏆 Публикация прогресса в канал.
+
+
+**.env:**
+    # Telegram settings
+    BOT_TOKEN=
+    ADMINS_IDS= <moderators_ids>
+    CHANNEL_ID=
+
+    # DB settings
+    DB_NAME=
+    DB_USER=
+    DB_PASSWORD=
+    DB_HOST= <docker_service_with_db_name>
+    DB_PORT=
