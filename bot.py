@@ -62,7 +62,7 @@ async def sendProgress(message: types.Message):
         await bot.send_photo(
             admin_id,
             photo=photo_id,
-            caption=f"<b>Пост от пользователя:</b> {message.from_user.full_name}\n\n{caption}",
+            caption=caption,
             reply_markup=markup
         )
 
